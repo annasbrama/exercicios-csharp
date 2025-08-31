@@ -39,3 +39,36 @@ else
     Console.WriteLine($"{num1} dividido por {num2} é {resultado}");
 
 }
+
+//Receba 4 notas, com somente uma casa decimal. Valide se todas estão entre 0.0 e 10.0. Se alguma delas não estiver, exiba "Digite somente notas entre 0 e 10.". Caso todas as notas sejam válidas, calcule a média aritmética das notas. Exiba uma mensagem no seguinte padrão: "Você ficou com média 7,5. Resultado: Aprovado".
+
+// Resultados possíveis:
+
+//     "Reprovado" para médias menores que 5.0
+//     "Em recuperação" para médias entre 5.0 e 6.0
+//     "Aprovado", para médias acima de 6.0
+
+double nota1, nota2, nota3, nota4, media;
+Console.WriteLine("Digite somente notas entre 0 e 10.");
+Console.Write("Digite a primeira nota ");
+nota1 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Digite a segunda nota ");
+nota2 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Digite a terceira nota ");
+nota3 = Convert.ToDouble(Console.ReadLine());
+Console.Write("Digite a quarta nota ");
+nota4 = Convert.ToDouble(Console.ReadLine());
+media = (nota1 + nota2 + nota3 + nota4) / 4;
+
+if (media < 5)
+{
+    Console.WriteLine($"Você ficou com {media}. Resultador: Reprovado!");
+}
+else if (media > 6)
+{
+    Console.WriteLine($"Você ficou com {media}. Resultador: Aprovado!");
+}
+else
+{
+    Console.WriteLine($"Você ficou com {media}. Resultador: Recuperação!");
+}

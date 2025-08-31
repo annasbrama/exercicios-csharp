@@ -12,3 +12,4 @@
 /home/annas/Documentos/exercicios-csharp/exercicios-casa/obj/Debug/net8.0/exercicios-casa.pdb
 /home/annas/Documentos/exercicios-csharp/exercicios-casa/obj/Debug/net8.0/exercicios-casa.genruntimeconfig.cache
 /home/annas/Documentos/exercicios-csharp/exercicios-casa/obj/Debug/net8.0/ref/exercicios-casa.dll
+/home/annas/Documentos/exercicios-csharp/exercicios-casa/obj/Debug/net8.0/exercicios-casa.sourcelink.json
