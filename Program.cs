@@ -104,3 +104,18 @@ else
 {
     Console.WriteLine("Você não pode ser doador de sangue");
 }
+
+//Receba um número. Exiba "par" ou "ímpar", conforme o caso.
+
+int num;
+Console.WriteLine("Digite um nũmero: ");
+num = Convert.ToInt32(Console.ReadLine()!);
+
+if (num % 2 == 0)
+{
+    Console.WriteLine("Par");
+}
+else
+{
+    Console.WriteLine("Ímpar");
+}
