@@ -119,3 +119,18 @@ else
 {
     Console.WriteLine("Ímpar");
 }
+
+//Receba uma medida em milhas e exiba seu equivalente em quilômetros. A medida em km é 1,609 vezes a medida em milhas.
+
+double conversao = 1.609;
+Console.WriteLine("Digite uma medida de milhas e converter para quilômetros: ");
+string numMilhas = Console.ReadLine()!;
+if (double.TryParse(numMilhas, out double milhas))
+{
+    double quilometros = milhas * conversao;
+    Console.WriteLine($"A conversao de {milhas} para quilômetros é {quilometros} km!");
+}
+else
+{
+    Console.WriteLine($"Digite um número válido na próxima vez! Não aceitamos palavras.");
+}
